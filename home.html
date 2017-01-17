@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<head>
+    <link href="assets/normalize.css" rel="stylesheet">
+    <title>i-cater.co.uk home page</title>
+  <style>
+    body {
+      background-color: black;
+      font-family: arial;
+    }
+     #wrapper {
+        background-color: white;
+        width: 994px ;
+        margin-left: auto ;
+        margin-right: auto ;
+    }
+    header {
+        text-align: center;
+
+    }
+    #logo{
+        background: url("images/logo.gif") left top no-repeat;
+        height: 142px;
+        width: 338px;
+        float: left;
+        margin-top: 2px;
+        margin-left: 10px;
+    }
+
+    #menu {
+        padding: 0px 10px;
+        float: right;
+        margin-top: 110px;
+    }
+    #menu li {display: inline;
+        padding: 0px 10px 0px 10px;
+    }
+    a {
+        color:black;
+        text-decoration:none;
+        font-weight:bold;
+    }
+    header a {
+        font-size: 14px;
+    }
+    #aboutus{
+        width: 954px;
+        background-color: #f7cb00;
+        clear: both; 
+        padding: 20px; 
+        font-family: arial black;
+        font-size: 210%;
+        line-height: 140%;
+    }
+    #aboutus a{
+        color: white;
+    }
+    #main{
+        height: 600px;
+        width: 994px;
+    }
+    #photo img{
+        display: block;
+    }
+    div.leftmain {
+        background-color: #3C3C3C;
+        color: white;
+        height: 980px;
+        width: 562px;
+        float: left;
+        padding: 20px;
+
+    }
+    div.rightmain {
+        background-color: white;
+        color: #3C3C3C;
+        height: 350px;
+        width: 352px;
+        float: left;
+        margin: 0px 0px 0px 0;
+        padding: 20px;
+    }
+    .leftmain h2{
+        color: white;
+        font-size: 300%;
+        margin-top: 5px;
+        margin-bottom: 20px;
+        font-family: arial black;
+    }
+    .leftmain h3{
+        color: white;
+        font-size: 110%;
+        font-weight:normal;  
+        line-height: 160%;
+
+    }
+    .rightmain h2{
+    color: #3C3C3C;
+    font-size: 300%;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-family: arial black;
+    }
+    .rightmain h3{
+    color: #3C3C3C;;
+    font-weight:bold; 
+    font-size: 160%; 
+    margin-bottom: 10px;
+    }
+    #call{
+    background: url("images/phone72.png") 0px 0px no-repeat;
+    height: 77px;
+    padding-left: 95px;
+    font-family: arial black;
+    }
+    #sendcv{
+    background: url("images/sendcv72.png") 0px 0px no-repeat;
+    height: 77px;
+    padding-left: 95px;
+    font-family: arial black;
+    }
+    #sendjob{
+    background: url("images/sendjob72.png") 0px 0px no-repeat;
+    height: 77px;
+    padding-left: 95px;
+    font-family: arial black;
+    }
+    #email{
+    background: url("images/email72.png") 0px 0px no-repeat;
+    height: 77px;
+    margin-top: 25px;
+    padding-left: 95px;
+    font-family: arial black;
+    }
+    .contact{
+      color: #1E8ECE;
+      font-size: 129%;
+      letter-spacing: 0.5px;
+    }
+    .leftmain label{
+      display: block;
+      color: white;
+      font-size: 135%;
+      margin-bottom: 10px;
+      margin-top: 15px;
+      font-family: arial black;
+    }
+    .leftmain input{
+        display: block;
+        width: 86%;
+        height: 40px;
+    }
+    textarea{
+        width: 85%;
+        height: 120px;
+    }
+    input[type=submit] {
+    background-color: #1E8ECE; /* Blue */
+    color: white;
+    border: none;
+    padding: 8px 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    font-size: 16px;
+    width: auto;
+    font-family: arial black;
+    margin-left: 319px;
+    margin-top: 20px;
+}
+    #uploadtext{
+    color: white;
+    font-family: arial black;
+    font-size: 135%;
+    margin-bottom: 15px;
+    margin-top: 30px;
+    margin-right:20px;
+    width: 20px;
+    }
+    #uploadcontainer{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    #footer{
+    background-color: #303030;
+    clear: both;
+    height: 150px;
+    }
+    #footerimg{
+    float: right;
+    margin-top: 70px;
+    padding-right: 10px;
+    }
+    #twitterfeed{
+      width: 994px;  
+    }
+
+    @media only screen and (max-width: 994px){
+        #photo img{
+        width:100%;
+        }
+        #aboutus{
+        width:auto;    
+        }
+        #menu {
+        margin-top: 0px;
+        float:left;
+        margin-left: 10px;
+        margin-top:10px;
+        }
+        #menu li {display: block;
+        padding: 0px 10px 0px 10px;
+        text-align: left;
+        padding:2px;
+        }
+        #logo{
+        margin: 0 auto;
+        }
+        #wrapper {
+        width: auto ;
+        }
+        #main{
+        height: auto;
+        width: auto;
+        }
+        div.leftmain {
+        height: auto;
+        width: auto;
+        float: none;
+        }
+        div.rightmain {
+        height: auto;
+        width: auto;
+        float: none;
+        }
+    }
+  </style>
+</head>
+<body>
+    <div id=wrapper>
+        <header> 
+            <div id="logo"></div>
+            <ul id=menu>
+<li><a href="about.html">ABOUT US</a></li>
+<li><a href="#submit">SUBMIT YOUR CV</a></li>
+<li><a href="vacancy.html">SUBMIT VACANCY</a></li>
+<li><a href="jobboard.html">FREE JOB BOARD</a></li>
+<li><a href="#">BLOG</a></li>
+</ul>
+</header>
+        <div id="aboutus"><a href="about.html">Who we are - </a>As placement consultants, we focus on the real issues that relate to your business, finding the right talent to meet your needs.<a href="about.html"> - more</a></div>
+        <div id="photo"><img src="images/photo2adj.jpg"/></div>
+        <div id="main">
+  <div class="leftmain">
+      <a name="submit"></a> 
+            <h2>Submit your CV</h2>
+<h3>Whether you're looking to take the next step up your career ladder or are fresh from education and keen to find your first job, we are here to help you access the best offers around. <p>Please submit the form below and attach your CV.</h3>
+<form action="http://formtoemail.com/user_forms.php" method="post">
+	<input type="hidden" name="user_id" value="QJGK2WPYSBI87JT6TMR1">
+	<input type="hidden" name="form_id" value="1">
+	<label for="firstname">First Name</label><input type="text" name="firstname" id="firstname">
+    <label for="lastname">Last Name</label><input type="text" name="lastname" id="lastname">
+	<label for="formemail">Email Address</label><input type="text" name="email" id="formemail">
+    <label for="position">Position you would like</label><input type="text" name="position" id="position">
+    <input type="hidden" name="uploadcv" id="uploadcv">
+    <div id="uploadcontainer"><span id="uploadtext">Upload your CV here</span><script type="text/javascript" src="http://api.filestackapi.com/filestack.js"></script>
+        <input type="filepicker" data-fp-apikey="AkepPBoihRUVQGslhDB7Mz"
+onchange="document.getElementById('uploadcv').value=(event.fpfile.url)"></div>
+	<label for="additional">Additional Information</label><textarea name="additional" id="additional"></textarea>
+	<input type="submit" value="Send">
+    <div style="clear:both;"></div>
+</form>
+</div>
+        <div class="rightmain">
+            <h2>Need Help?</h2>
+            <div id="call"><h3>call us</h3><a class="contact">07733130418</a></div>
+            <div id="email"><h3>email us</h3><a class="contact">register@i-cater.co.uk</a></div>
+</div>
+</div>
+<div id="footer">
+    <div id="footerimg"><img src="images/facebook72.png"/> <img src="images/twitter72.png"/> <img src="images/instagram72.png"/> </div>
+    </div>
+    </div>  
+</body>
